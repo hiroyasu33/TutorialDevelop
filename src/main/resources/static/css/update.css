@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/** これは、文字のデザインの設定がされている*/
 label {
     display: inline-block;
     width:8em;

@@ -10,11 +10,11 @@ import com.techacademy.entity.User;
 import com.techacademy.repository.UserRepository;
 
 @Service
-public class UserService {
-    private final UserRepository userRepository;
+public class UserService { //クラス名
+    private final UserRepository userRepository; //UserRepositoryクラスを変数userRepositoryとして宣言
 
-    public UserService(UserRepository repository) {
-        this.userRepository = repository;
+    public UserService(UserRepository userRepository) { //コンストラクタの作成。UserRepositoryクラスのインスタンスを引数repositoryに代入
+        this.userRepository = userRepository;
     }
 
     /** 全件を検索して返す */
